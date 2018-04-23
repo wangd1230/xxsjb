@@ -61,11 +61,11 @@ function next() {
 			r=Math.floor(Math.random()*155);
 			page.innerHTML = '';
 			btn.style.display = 'none';
-			body.style.backgroundImage = 'url(http://p7mcgd8h2.bkt.clouddn.com/bg2.jpg)';
+			body.style.backgroundImage = 'url(img/bg2.jpg)';
 			var p1 = document.createElement('p');
 			var img = document.createElement('img');
 			img.className = 'qr';
-			img.src = 'http://p7mcgd8h2.bkt.clouddn.com/qr.png';
+			img.src = 'img/qr.png';
 			body.appendChild(img);
 			p1.className = 'result';
 			p1.style.fontSize = '2.5rem';

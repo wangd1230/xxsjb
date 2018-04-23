@@ -10,7 +10,7 @@ body{
 	width: 100%;
 	/*height: 100%;*/
 	margin: 0;
-	background-image: url(http://p7mcgd8h2.bkt.clouddn.com/bg3.png);
+	background-image: url(img/bg3.png);
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -47,5 +47,5 @@ body{
 }
 @font-face{
 	font-family: 'HanzipenSC';
-	src:url('http://p7mcgd8h2.bkt.clouddn.com/%E5%8D%8E%E5%BA%B7%E7%BF%A9%E7%BF%A9.ttf');	
+	src:url('华康翩翩.ttf');	
 	}
