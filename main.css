@@ -10,11 +10,14 @@ body{
 	width: 100%;
 	/*height: 100%;*/
 	margin: 0;
-	background-image: url(img/bg4.png);
+	/*background-image: url(img/bg4.png);*/
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	/*position: relative;*/
+}
+body img{
+	width: 100%;
 }
 /*.page{
 	font-size: 10px;
@@ -31,7 +34,8 @@ body{
 .two{
 	position: absolute;
 	text-align: center;
-	bottom: 10%;
+	/*bottom: 10%;*/
+	top: 80%;
 	left: 46%;
 }
 .two img{
@@ -45,7 +49,8 @@ body{
 }
 .qr{
 	position: absolute;
-	bottom: 30%;
+	/*bottom: 30%;*/
+	top: 60%;
 	right: 8%;
 	width: 15%;
 }

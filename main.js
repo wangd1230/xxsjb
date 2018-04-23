@@ -1,6 +1,7 @@
 var body = document.querySelector('body');
 var page = document.querySelector('.page');
 var btn = document.querySelector('.btn');
+var bg = document.querySelector('.bg');
 var i = 0;
 var books = ['《百年孤独》','《小王子》','《人间词话》','《中国小说史略》','《海子诗全集》','《带上她的眼睛 》','《尘埃落定》','《基督山伯爵》','《如何阅读一本书》','《文学回忆录》','《人生》','《务虚笔记》','《自私的基因》','《南渡北归》','《万历十五年》','《菊与刀》','《失控》','《千年一叹》','《乌合之众》','《炮、病菌与钢铁》',
 '《传家》','《历史深处的忧虑》',
@@ -41,7 +42,8 @@ function next() {
 		// page.appendChild(p1);
 		// page.appendChild(p2);
 		// page.appendChild(p3);
-		body.style.backgroundImage = 'url(img/bg5.png)';
+		// body.style.backgroundImage = 'url(img/bg5.png)';
+		bg.src = 'img/bg5.png';
 	}
 	if (i == 2) {
 		// page.innerHTML = '';
@@ -50,7 +52,8 @@ function next() {
 		// p1.textContent = '输入你的姓名：';
 		// page.appendChild(p1);
 		body.appendChild(input);
-		body.style.backgroundImage = 'url(img/bg6.png)';
+		// body.style.backgroundImage = 'url(img/bg6.png)';
+		bg.src = 'img/bg6.png';
 	}
 	if (i == 3) {
 		var input = document.querySelector('input');
@@ -65,7 +68,8 @@ function next() {
 			// page.innerHTML = '';
 			input.style.display = 'none';
 			btn.style.display = 'none';
-			body.style.backgroundImage = 'url(img/bg2.jpg)';
+			// body.style.backgroundImage = 'url(img/bg2.jpg)';
+			bg.src = 'img/bg2.jpg'
 			var p1 = document.createElement('p');
 			var img = document.createElement('img');
 			img.className = 'qr';
