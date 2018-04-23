@@ -31,26 +31,29 @@ function next() {
 	// body...
 	i++;
 	if (i == 1) {
-		page.innerHTML = '';
-		var p1 = document.createElement('p');
-		var p2 = document.createElement('p');
-		var p3 = document.createElement('p');
-		p1.textContent = '今天是世界读书日';
-		p2.textContent = '希望你能够在闲暇时间享受这一本属于你的心动书籍';
-		p3.textContent = '从这一天起，养成良好的阅读习惯';
-		page.appendChild(p1);
-		page.appendChild(p2);
-		page.appendChild(p3);
+		// page.innerHTML = '';
+		// var p1 = document.createElement('p');
+		// var p2 = document.createElement('p');
+		// var p3 = document.createElement('p');
+		// p1.textContent = '今天是世界读书日';
+		// p2.textContent = '希望你能够在闲暇时间享受这一本属于你的心动书籍';
+		// p3.textContent = '从这一天起，养成良好的阅读习惯';
+		// page.appendChild(p1);
+		// page.appendChild(p2);
+		// page.appendChild(p3);
+		body.style.backgroundImage = 'url(img/bg5.png)';
 	}
 	if (i == 2) {
-		page.innerHTML = '';
-		var p1 = document.createElement('p');
+		// page.innerHTML = '';
+		// var p1 = document.createElement('p');
 		var input = document.createElement('input');
-		p1.textContent = '输入你的姓名：';
-		page.appendChild(p1);
-		page.appendChild(input);
+		// p1.textContent = '输入你的姓名：';
+		// page.appendChild(p1);
+		body.appendChild(input);
+		body.style.backgroundImage = 'url(img/bg6.png)';
 	}
 	if (i == 3) {
+		var input = document.querySelector('input');
 		var name = document.querySelector('input').value;
 		console.log(name);
 		if (name == '') {
@@ -59,7 +62,8 @@ function next() {
 		}
 		else{
 			r=Math.floor(Math.random()*155);
-			page.innerHTML = '';
+			// page.innerHTML = '';
+			input.style.display = 'none';
 			btn.style.display = 'none';
 			body.style.backgroundImage = 'url(img/bg2.jpg)';
 			var p1 = document.createElement('p');
@@ -71,8 +75,9 @@ function next() {
 			p1.style.fontSize = '2.5rem';
 			p1.style.color = '#744628';
 			p1.textContent = books[r];
-			page.appendChild(p1);
-			page.style.marginTop = '65%';
+			body.appendChild(p1);
+			// page.appendChild(p1);
+			// page.style.marginTop = '65%';
 		}
 		
 		// body.style.backgroundColor = 'black';

@@ -10,13 +10,13 @@ body{
 	width: 100%;
 	/*height: 100%;*/
 	margin: 0;
-	background-image: url(img/bg3.png);
+	background-image: url(img/bg4.png);
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	/*position: relative;*/
 }
-.page{
+/*.page{
 	font-size: 10px;
 	text-align: center;
 	margin-top: 80%;
@@ -26,7 +26,8 @@ body{
 }
 .page p{
 	margin: 2px 0;
-}
+}*/
+
 .two{
 	position: absolute;
 	text-align: center;
@@ -38,6 +39,9 @@ body{
 }
 .result{
 	font-family: 'HanzipenSC';
+	position: absolute;
+	top: 32%;
+	left: 25%;
 }
 .qr{
 	position: absolute;
@@ -45,7 +49,12 @@ body{
 	right: 8%;
 	width: 15%;
 }
-/*@font-face{
+input{
+	position: absolute;
+	top: 60%;
+	left: 37%;
+}
+@font-face{
 	font-family: 'HanzipenSC';
 	src:url('华康翩翩.ttf');	
-	}*/
+	}
